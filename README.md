@@ -1,16 +1,69 @@
-# React + Vite
+# HERO.IO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+HERO.IO is a responsive app marketplace experience where users can discover apps, view detailed analytics, install apps, and manage their installations with persistent localStorage support.
 
-Currently, two official plugins are available:
+## Live Information
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Live Link: `[Hero IO](https://hero-io-restart.vercel.app/)`
+- GitHub Repository: `[Github Repo](https://github.com/abdullahalnoman003/Hero-IO)`
 
-## React Compiler
+## Core Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive header with logo, active nav links, and contribution button
+- Home page with banner, stats cards, and top 8 apps section
+- All Apps page with:
+  - total app count
+  - live case-insensitive search
+  - no-result state (`No App Found`)
+  - sorting by downloads (`High-Low`, `Low-High`)
+- App Details page with:
+  - app info and description
+  - install button with persistent localStorage state
+  - install success toast
+  - responsive review chart using Recharts
+- My Installation page with uninstall flow and toast feedback
+- Custom 404 page + custom app not found UI
+- Loading animations for page navigation and search operations
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- React Router 7
+- Tailwind CSS 4
+- DaisyUI 5
+- Recharts
+- React Hot Toast
+- React Icons
+- Vite
+
+## Project Structure (Key Parts)
+
+- `src/data/apps.json` → app dataset (12 objects)
+- `src/Router/router.jsx` → all routes
+- `src/Components/Home/*` → home sections
+- `src/Components/AppsPage/*` → all apps, details, installation pages
+- localStorage logic is written directly inside app pages for easier reading
+
+## Local Development
+
+1. Install dependencies
+
+```bash
+npm install
+```
+
+1. Run development server
+
+```bash
+npm run dev
+```
+
+1. Build for production
+
+```bash
+npm run build
+```
+
+## Deployment Note
+
+`vercel.json` includes rewrite rules so reloading nested routes does not show 404 in production.
