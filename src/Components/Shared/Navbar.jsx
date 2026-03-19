@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
-    <div className="navbar font-bold max-w-7xl backdrop-blur-2xl shadow-md fixed px-6 max-md:pl-1 top-0 z-20">
+    <div className="navbar font-bold max-w-7xl bg-white shadow-md fixed px-6 max-md:pl-1 top-0 z-20">
         
       <div className="navbar-start">
         <div className="dropdown">
@@ -60,7 +60,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn bg-linear-to-br from-[#652FE3] to-[#9F62F2] text-white"><FaGithub/> Contribute</a>
+        <NavLink to={'https://github.com/abdullahalnoman003'} target="_blank" className="btn bg-linear-to-br from-[#652FE3] to-[#9F62F2] text-white"><FaGithub/> Contribute</NavLink>
       </div>
     </div>
   );
