@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @plugin "daisyui";
-
+.active{
+@apply text-[#652FE3] underline
+}
 html {
     scroll-behavior: smooth;
 }

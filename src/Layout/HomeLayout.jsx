@@ -6,9 +6,9 @@ import Footer from '../Components/Shared/Footer';
 const HomeLayout = () => {
     return (
         <div>
-           <nav><Navbar></Navbar></nav>
-           <main><Outlet></Outlet> </main>
-           <footer><Footer></Footer></footer>
+           <nav className='max-w-7xl mx-auto'><Navbar></Navbar></nav>
+           <main className='max-w-7xl mx-auto' ><Outlet></Outlet> </main> {/**/}
+           <footer className='bg-base-content' ><Footer></Footer></footer>
         </div>
     );
 };
