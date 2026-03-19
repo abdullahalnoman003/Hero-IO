@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "/apps/app-1.webp",
+    "title": "TaskFlow",
+    "companyName": "Nova Labs",
+    "description": "TaskFlow helps teams plan, assign, and complete work in one clean workspace with smart reminders and collaborative boards.",
+    "size": 34,
+    "reviews": 12450,
+    "ratingAvg": 4.6,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 310 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1150 },
+      { "name": "4 star", "count": 3650 },
+      { "name": "5 star", "count": 6820 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "/apps/app-2.webp",
+    "title": "FitPulse",
+    "companyName": "BodyByte",
+    "description": "FitPulse tracks workouts, daily activity, and recovery so you can follow custom fitness plans and stay consistent every day.",
+    "size": 48,
+    "reviews": 10320,
+    "ratingAvg": 4.5,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 280 },
+      { "name": "2 star", "count": 430 },
+      { "name": "3 star", "count": 940 },
+      { "name": "4 star", "count": 3040 },
+      { "name": "5 star", "count": 5630 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "/apps/app-3.webp",
+    "title": "NoteNest",
+    "companyName": "Cloudquill",
+    "description": "NoteNest gives you instant note capture with rich text, tags, and device sync, making it easy to organize ideas anywhere.",
+    "size": 22,
+    "reviews": 8690,
+    "ratingAvg": 4.4,
+    "downloads": 760000,
+    "ratings": [
+      { "name": "1 star", "count": 240 },
+      { "name": "2 star", "count": 380 },
+      { "name": "3 star", "count": 930 },
+      { "name": "4 star", "count": 2610 },
+      { "name": "5 star", "count": 4530 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "/apps/app-4.webp",
+    "title": "FinPilot",
+    "companyName": "Mint Arc",
+    "description": "FinPilot simplifies budgeting and monthly insights with spending categories, bill tracking, and clear financial dashboards.",
+    "size": 39,
+    "reviews": 14220,
+    "ratingAvg": 4.7,
+    "downloads": 1700000,
+    "ratings": [
+      { "name": "1 star", "count": 290 },
+      { "name": "2 star", "count": 460 },
+      { "name": "3 star", "count": 1180 },
+      { "name": "4 star", "count": 3920 },
+      { "name": "5 star", "count": 8370 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "/apps/app-5.webp",
+    "title": "CalmWave",
+    "companyName": "Zen Pixel",
+    "description": "CalmWave combines guided breathing, ambient sounds, and focus timers to help you reduce stress and stay mindful.",
+    "size": 31,
+    "reviews": 7860,
+    "ratingAvg": 4.3,
+    "downloads": 690000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 2290 },
+      { "name": "5 star", "count": 3910 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "/apps/app-6.webp",
+    "title": "TravelLite",
+    "companyName": "Routeify",
+    "description": "TravelLite plans trips with smart itineraries, booking reminders, and offline destination guides for seamless travel.",
+    "size": 56,
+    "reviews": 9120,
+    "ratingAvg": 4.5,
+    "downloads": 840000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 390 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2820 },
+      { "name": "5 star", "count": 4760 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "/apps/app-1.webp",
+    "title": "CodeSprint",
+    "companyName": "DevOrbit",
+    "description": "CodeSprint helps developers practice coding challenges, track streaks, and improve problem-solving speed every day.",
+    "size": 28,
+    "reviews": 6540,
+    "ratingAvg": 4.2,
+    "downloads": 540000,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 390 },
+      { "name": "3 star", "count": 860 },
+      { "name": "4 star", "count": 1930 },
+      { "name": "5 star", "count": 3140 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "/apps/app-2.webp",
+    "title": "StudySphere",
+    "companyName": "Learnloop",
+    "description": "StudySphere boosts learning with flashcards, quiz sets, and AI-powered summaries to improve retention and exam readiness.",
+    "size": 42,
+    "reviews": 11910,
+    "ratingAvg": 4.6,
+    "downloads": 1300000,
+    "ratings": [
+      { "name": "1 star", "count": 270 },
+      { "name": "2 star", "count": 430 },
+      { "name": "3 star", "count": 1030 },
+      { "name": "4 star", "count": 3450 },
+      { "name": "5 star", "count": 6730 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "/apps/app-3.webp",
+    "title": "SnapEdit",
+    "companyName": "PixelSmith",
+    "description": "SnapEdit makes photo editing easy with pro filters, one-tap background cleanup, and creative templates for social posts.",
+    "size": 63,
+    "reviews": 15780,
+    "ratingAvg": 4.7,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 470 },
+      { "name": "3 star", "count": 1210 },
+      { "name": "4 star", "count": 4320 },
+      { "name": "5 star", "count": 9480 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "/apps/app-4.webp",
+    "title": "MealMate",
+    "companyName": "Kitchenly",
+    "description": "MealMate helps you discover recipes, build grocery lists, and plan weekly meals based on your diet preferences.",
+    "size": 37,
+    "reviews": 7430,
+    "ratingAvg": 4.3,
+    "downloads": 620000,
+    "ratings": [
+      { "name": "1 star", "count": 230 },
+      { "name": "2 star", "count": 370 },
+      { "name": "3 star", "count": 850 },
+      { "name": "4 star", "count": 2180 },
+      { "name": "5 star", "count": 3800 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "/apps/app-5.webp",
+    "title": "PocketNews",
+    "companyName": "Dailygrid",
+    "description": "PocketNews delivers personalized headlines, short-form reads, and topic follows so you stay informed in minutes.",
+    "size": 26,
+    "reviews": 9820,
+    "ratingAvg": 4.4,
+    "downloads": 910000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 920 },
+      { "name": "4 star", "count": 2870 },
+      { "name": "5 star", "count": 5370 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "/apps/app-6.webp",
+    "title": "SafeVault",
+    "companyName": "CipherBox",
+    "description": "SafeVault secures passwords, notes, and private files with encrypted storage, biometric lock, and auto backup.",
+    "size": 45,
+    "reviews": 11640,
+    "ratingAvg": 4.6,
+    "downloads": 1450000,
+    "ratings": [
+      { "name": "1 star", "count": 280 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 1090 },
+      { "name": "4 star", "count": 3490 },
+      { "name": "5 star", "count": 6330 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "/apps/app-1.webp",
+    "title": "EduMint",
+    "companyName": "Brightfox Learning",
+    "description": "EduMint helps students create study plans, track assignments, and revise smarter with flashcards and daily progress insights.",
+    "size": 33,
+    "reviews": 8750,
+    "ratingAvg": 4.5,
+    "downloads": 780000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 220 },
+      { "name": "3 star", "count": 610 },
+      { "name": "4 star", "count": 2360 },
+      { "name": "5 star", "count": 5440 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "/apps/app-2.webp",
+    "title": "FleetTrack",
+    "companyName": "TransitCore",
+    "description": "FleetTrack lets delivery teams monitor routes, manage drivers, and reduce delays with live trip updates and analytics.",
+    "size": 58,
+    "reviews": 13240,
+    "ratingAvg": 4.4,
+    "downloads": 1680000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 3890 },
+      { "name": "5 star", "count": 7880 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "/apps/app-3.webp",
+    "title": "GreenCart",
+    "companyName": "Freshline Digital",
+    "description": "GreenCart makes grocery shopping simple with smart lists, repeat ordering, and time-slot delivery for busy households.",
+    "size": 41,
+    "reviews": 9540,
+    "ratingAvg": 4.3,
+    "downloads": 860000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 330 },
+      { "name": "3 star", "count": 910 },
+      { "name": "4 star", "count": 2820 },
+      { "name": "5 star", "count": 5270 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "/apps/app-4.webp",
+    "title": "MindBloom",
+    "companyName": "QuietLake Studio",
+    "description": "MindBloom supports mental wellness with guided breathing, mood journaling, sleep sounds, and gentle daily routines.",
+    "size": 29,
+    "reviews": 11080,
+    "ratingAvg": 4.5,
+    "downloads": 1240000,
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 690 },
+      { "name": "4 star", "count": 3010 },
+      { "name": "5 star", "count": 6990 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "/apps/app-5.webp",
+    "title": "PetPal",
+    "companyName": "Pawverse Tech",
+    "description": "PetPal helps pet owners manage feeding schedules, vaccination reminders, vet visits, and health logs in one place.",
+    "size": 35,
+    "reviews": 7020,
+    "ratingAvg": 4.2,
+    "downloads": 510000,
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 760 },
+      { "name": "4 star", "count": 2160 },
+      { "name": "5 star", "count": 3600 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "/apps/app-6.webp",
+    "title": "SafeRide",
+    "companyName": "UrbanMiles",
+    "description": "SafeRide offers secure ride booking with real-time driver tracking, trip sharing, and reliable pickup scheduling.",
+    "size": 52,
+    "reviews": 14960,
+    "ratingAvg": 4.5,
+    "downloads": 1950000,
+    "ratings": [
+      { "name": "1 star", "count": 170 },
+      { "name": "2 star", "count": 280 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3820 },
+      { "name": "5 star", "count": 9790 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "/apps/app-1.webp",
+    "title": "HomeFix",
+    "companyName": "Fixora",
+    "description": "HomeFix connects homeowners with trusted electricians, plumbers, and repair experts through quick service requests.",
+    "size": 44,
+    "reviews": 8360,
+    "ratingAvg": 4.2,
+    "downloads": 670000,
+    "ratings": [
+      { "name": "1 star", "count": 230 },
+      { "name": "2 star", "count": 360 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 2510 },
+      { "name": "5 star", "count": 4280 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "/apps/app-2.webp",
+    "title": "MarketMuse",
+    "companyName": "TrendDeck",
+    "description": "MarketMuse gives small businesses campaign insights, audience trends, and simple growth reports for better marketing decisions.",
+    "size": 47,
+    "reviews": 12890,
+    "ratingAvg": 4.5,
+    "downloads": 1520000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 760 },
+      { "name": "4 star", "count": 3240 },
+      { "name": "5 star", "count": 8480 }
+    ]
+  }
+]
