@@ -5,29 +5,52 @@ import Hero from "../Components/Home/Hero";
 import States from "../Components/Home/States";
 import Trending from "../Components/Home/Trending";
 import AllApps from "../Components/AppsPage/AllApps";
+import AppDetails from "../Components/AppsPage/AppDetails";
+import MyInstallation from "../Components/AppsPage/MyInstallation";
+
+const routeLoadingDelay = async () => {
+    await new Promise((resolve) => setTimeout(resolve, 280));
+    return null;
+};
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <HomeLayout></HomeLayout>,
-        children:[
+        element: <HomeLayout />,
+        errorElement: <Error404 />,
+        children: [
             {
                 index: true,
-                element:<>
-                <Hero></Hero>
-                <States></States>
-                <Trending></Trending>
-                </>,
+                loader: routeLoadingDelay,
+                element: (
+                    <>
+                        <Hero />
+                        <States />
+                        <Trending />
+                    </>
+                ),
             },
             {
-                path:"/*",
-                element:<Error404></Error404>
+                path: "apps",
+                loader: routeLoadingDelay,
+                element: <AllApps />,
             },
             {
-                path:"/all-apps",
-                element:<AllApps></AllApps>
+                path: "apps/:id",
+                loader: routeLoadingDelay,
+                element: <AppDetails />,
             },
-        ]
-    }
-])
+            {
+                path: "installation",
+                loader: routeLoadingDelay,
+                element: <MyInstallation />,
+            },
+            {
+                path: "*",
+                element: <Error404 />,
+            },
+        ],
+    },
+]);
+
 export default router;

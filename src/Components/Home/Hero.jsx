@@ -5,7 +5,7 @@ import { FaAppStoreIos } from "react-icons/fa";
 
 const Hero = () => {
     return (
-        <section className="px-4 pt-24 pb-12">
+        <section className="px-4 pt-24 ">
             <div className="max-w-4xl mx-auto text-center space-y-6">
                 <h1 className="text-4xl md:text-6xl font-black text-base-content">
                     We Build <br /> <span className="bg-linear-to-br from-purple-800 to-purple-500 bg-clip-text text-transparent ">Productive</span>  Apps
