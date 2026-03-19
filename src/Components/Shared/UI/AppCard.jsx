@@ -25,10 +25,10 @@ const AppCard = ({ app }) => {
 
         <div className="flex items-center justify-between text-sm text-base-content/80">
           <span className="inline-flex items-center gap-1 bg-green-100 btn btn-sm">
-            <img src="/src/assets/icon-downloads.png" className="w-3" alt="" /> {downloads.toLocaleString()}
+            <img src="/assets/icon-downloads.png" className="w-3" alt="" /> {downloads.toLocaleString()}
           </span>
           <span className="inline-flex items-center gap-1 bg-yellow-100 btn btn-sm">
-            <img src="/src/assets/icon-ratings.png" className="w-3 " alt="icon" /> {ratingAvg}
+            <img src="/assets/icon-ratings.png" className="w-3 " alt="icon" /> {ratingAvg}
           </span>
         </div>
       </div>

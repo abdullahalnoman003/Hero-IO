@@ -3,6 +3,14 @@ import { Link, useParams } from "react-router";
 import toast from "react-hot-toast";
 import apps from "../../data/apps.json";
 import AppNotFound from "../../Error/AppNotFound";
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  Tooltip,
+  ResponsiveContainer,
+} from "recharts";
 
 const STORAGE_KEY = "hero-io-installed-apps";
 
@@ -93,21 +101,21 @@ const AppDetails = () => {
 
     <div className="flex items-center gap-12">
       <div>
-        <img src="/src/assets/icon-downloads.png" className="w-6 mb-1" />
+        <img src="/assets/icon-downloads.png" className="w-6 mb-1" />
         <p className="text-xs text-base-content/70">Downloads</p>
         <p className="text-2xl font-bold">
           {formatCompactNumber(app.downloads)}
         </p>
       </div>
       <div>
-        <img src="/src/assets/icon-ratings.png" className="w-6 mb-1" />
+        <img src="/assets/icon-ratings.png" className="w-6 mb-1" />
         <p className="text-xs text-base-content/70">Average Ratings</p>
         <p className="text-2xl font-bold">
           {app.ratingAvg.toFixed(1)}
         </p>
       </div>
       <div>
-        <img src="/src/assets/icon-review.png" className="w-6 mb-1" />
+        <img src="/assets/icon-review.png" className="w-6 mb-1" />
         <p className="text-xs text-base-content/70">Total Reviews</p>
         <p className="text-2xl font-bold">
           {formatCompactNumber(app.reviews)}
@@ -127,31 +135,39 @@ const AppDetails = () => {
   </div>
 </article>
 
-        <section className="mt-10">
+<section className="mt-10">
   <div className="border-t pt-6">
     <h2 className="text-xl font-semibold mb-6">Ratings</h2>
 
-    <div className="space-y-4">
-      {[5, 4, 3, 2, 1].map((star) => {
-        const item = app.ratings.find((r) => r.name === `${star} star`);
-        const max = Math.max(...app.ratings.map((r) => r.count));
-        const width = (item.count / max) * 100;
+    <div className="w-full h-65">
+      <ResponsiveContainer width="100%" height="100%">
+        <BarChart
+          data={[...app.ratings].reverse()}
+          layout="vertical"
+          margin={{ top: 0, right: 20, left: 10, bottom: 0 }}
+        >
+          <XAxis type="number" hide />
 
-        return (
-          <div key={star} className="flex items-center gap-4">
-            <span className="w-12 text-sm text-base-content/70">
-              {star} star
-            </span>
+          <YAxis
+            dataKey="name"
+            type="category"
+            axisLine={false}
+            tickLine={false}
+            width={70}
+            tick={{ fontSize: 14 }}
+          />
 
-            <div className="flex-1 bg-base-200 h-4 rounded">
-              <div
-                className="bg-orange-500 h-4 rounded"
-                style={{ width: `${width}%` }}
-              ></div>
-            </div>
-          </div>
-        );
-      })}
+          {/* Hide tooltip to match image */}
+          <Tooltip content={() => null} />
+
+          <Bar
+            dataKey="count"
+            fill="#f97316"
+            radius={[6, 6, 6, 6]}
+            barSize={12}
+          />
+        </BarChart>
+      </ResponsiveContainer>
     </div>
   </div>
 </section>

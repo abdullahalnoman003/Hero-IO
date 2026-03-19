@@ -41,8 +41,8 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <NavLink className="flex place-items-center font-bold gap-2 text-xl">
-          <img className="w-10 max-md:w-8" src="/src/assets/logo.png" alt="logo" />{" "}
+        <NavLink to={"/"} className="flex place-items-center font-bold gap-2 text-xl">
+          <img className="w-10 max-md:w-8" src="/assets/logo.png" alt="logo" />{" "}
           HERO.IO
         </NavLink>
       </div>

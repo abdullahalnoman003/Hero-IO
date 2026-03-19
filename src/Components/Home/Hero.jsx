@@ -1,5 +1,4 @@
 import React from "react";
-import heroImage from "../../assets/heropage.png";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { FaAppStoreIos } from "react-icons/fa";
 
@@ -38,7 +37,7 @@ const Hero = () => {
                 </div>
 
                 <img
-                    src={heroImage}
+                    src="/assets/heropage.png"
                     alt="Hero illustration"
                     className="w-full max-w-4xl mx-auto"
                 />

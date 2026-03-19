@@ -122,8 +122,8 @@ const MyInstallation = () => {
                     <h2 className="text-sm font-semibold">{app.title}</h2>
 
                     <div className="flex items-center gap-3 text-xs text-base-content/70 mt-1">
-                      <span className="flex place-items-center"> <img src="/src/assets/icon-downloads.png" className="w-3" alt="" /> {formatCompactNumber(app.downloads)}</span>
-                      <span className="flex place-items-center"><img src="/src/assets/icon-ratings.png" className="w-3" alt="ratings" /> {app.ratingAvg.toFixed(1)}</span>
+                      <span className="flex place-items-center"> <img src="/assets/icon-downloads.png" className="w-3" alt="" /> {formatCompactNumber(app.downloads)}</span>
+                      <span className="flex place-items-center"><img src="/assets/icon-ratings.png" className="w-3" alt="ratings" /> {app.ratingAvg.toFixed(1)}</span>
                       <span>{app.size || 258} MB</span>
                     </div>
                   </div>

@@ -8,7 +8,7 @@ const Footer = () => {
     <><footer className="footer max-w-7xl mx-auto flex place-items-center justify-between text-white pt-10 px-6">
       <nav>
         <div className="place-items-center text-xl font-bold flex">
-          <img src="/src/assets/logo.png" className="w-10" alt="logo" /> HERO.IO
+          <img src="/assets/logo.png" className="w-10" alt="logo" /> HERO.IO
         </div>
       </nav>
       <nav>
